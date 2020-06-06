@@ -1,0 +1,15 @@
+server:
+  port: 8083
+    
+spring:
+
+#====== Data source ========
+  datasource:
+    url: jdbc:postgresql://localhost:5432/regional
+    username: user_name
+    password: password
+    driverClassName: org.postgresql.Driver
+    platform: postgresql
+    initialization-mode: never
+    continueOnError: true
+    sqlScriptEncoding: UTF-8

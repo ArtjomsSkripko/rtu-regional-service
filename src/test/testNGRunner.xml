@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NG tests">
+    <test name="NG">
+        <packages>
+            <package name="regional.exception"/>
+            <package name="regional.mapper"/>
+            <package name="regional.rest"/>
+            <package name="regional.service"/>
+            <package name="regional.validation"/>
+        </packages>
+    </test>
+</suite>
